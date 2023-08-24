@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9/">
+    <!-- Homepage -->
+    <url>
+        <loc>https://macecailiscool.github.io/protag-dev-studios/index.html</loc>
+    </url>
+
+    <!-- Apply Page -->
+    <url>
+        <loc>https://macecailiscool.github.io/protag-dev-studios/apply.html</loc>
+    </url>
+
+    <!-- 404 Page -->
+    <url>
+        <loc>https://macecailiscool.github.io/protag-dev-studios/404.html</loc>
+    </url>
+
+    <!-- Internal PDS ID Generator Page -->
+    <url>
+        <loc>https://macecailiscool.github.io/protag-dev-studios/pds_5044532d49442c000000.html</loc>
+    </url>
+
+    <!-- Redirect to PDS Internal Members List -->
+    <url>
+        <loc>https://macecailiscool.github.io/protag-dev-studios/pds_5445414d2d4d440000000000.html</loc>
+    </url>
+
+    <!-- TPC Download Page -->
+    <url>
+        <loc>https://macecailiscool.github.io/protag-dev-studios/download/tpc.html</loc>
+    </url>
+</urlset>
