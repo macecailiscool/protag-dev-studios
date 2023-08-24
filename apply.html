@@ -63,6 +63,35 @@
             background-color: #000FFF;
         }
     </style>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector("form");
+        form.addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const formData = new FormData(form);
+            const payload = {};
+            formData.forEach((value, key) => {
+                payload[key] = value;
+            });
+
+            const response = await fetch(form.action, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(payload),
+            });
+
+            if (response.ok) {
+                console.log("Message sent successfully!");
+            } else {
+                console.error("Message failed to send.");
+            }
+        });
+    });
+</script>
+
 </head>
 <body>
     <div class="container">
