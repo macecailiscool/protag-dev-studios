@@ -1,0 +1,11 @@
+ErrorDocument 401 /401.html
+
+<Files "pds_5044532d49442c000000.html">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "pds_5445414d2d4d440000000000.html">
+    Order Allow,Deny
+    Deny from all
+</Files>
