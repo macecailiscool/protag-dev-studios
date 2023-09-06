@@ -1,4 +1,4 @@
-ErrorDocument 401 /401.html
+ErrorDocument 403 /401.html
 
 <Files "pds_5044532d49442c000000.html">
     Order Allow,Deny
